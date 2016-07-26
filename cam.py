@@ -6,7 +6,7 @@ class cam:
 
     def takePic(self):
         camera = cv2.VideoCapture(0)
-        #workup the camera
+        #warm up the camera
         temp = camera.read()
         im = camera.read()
         cv2.imwrite(self.filename, im[1])
