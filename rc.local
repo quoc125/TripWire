@@ -1,0 +1,5 @@
+#rc.local
+#loop
+fi
+	python /home/pi/Documents/TripWire/main.py &
+exit 0
