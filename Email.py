@@ -1,7 +1,10 @@
 '''
-Created on Jul 4, 2016
-
-@author: Brandon
+Created on Jul 28, 2016
+TripWire
+@author: Brandon Royal
+         Quoc Le
+         Sayeed Tahseen
+         Gilbert Vieux
 '''
 import os
 import smtplib
@@ -41,7 +44,7 @@ class Email(object):
 
 
         attachment = open( self.filename, "rb").read()     #get the picture file to attach
-        image = MIMEImage(attachment, name=os.path.basename(self.filename))   
+        image = MIMEImage(attachment, name=os.path.basename(self.filename))
         # part = ('application', 'octet-stream')
         # part.set_payload((attachment).read())
         # encoders.encode_base64(part)
