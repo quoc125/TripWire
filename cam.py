@@ -1,3 +1,11 @@
+'''
+Created on Jul 28, 2016
+TripWire
+@author: Brandon Royal
+         Quoc Le
+         Sayeed Tahseen
+         Gilbert Vieux
+'''
 import cv2
 frame = 10
 class cam:
@@ -9,6 +17,6 @@ class cam:
         #warm up the camera
         temp = camera.read()
         im = camera.read()
+        #save the picture
         cv2.imwrite(self.filename, im[1])
         del(camera)
-
