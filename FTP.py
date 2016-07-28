@@ -1,10 +1,11 @@
 '''
-Created on Jul 25, 2016
-
-@author: Brandon
+Created on Jul 28, 2016
+TripWire
+@author: Brandon Royal
+         Quoc Le
+         Sayeed Tahseen
+         Gilbert Vieux
 '''
-
-
 from ftplib import FTP
 
 
