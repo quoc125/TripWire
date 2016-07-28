@@ -16,7 +16,7 @@ import datetime
 
 def main():
     print ("test")
-    #in
+    #inialize
     ldr = LightSensor(4) ;
     var = 1
     value = 1
